@@ -11,6 +11,7 @@
 		C3F7B7782CC1AE3C00FC37E5 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3F7B7772CC1AE3C00FC37E5 /* ContentView.swift */; };
 		C3F7B77A2CC1AE3E00FC37E5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C3F7B7792CC1AE3E00FC37E5 /* Assets.xcassets */; };
 		C3F7B77D2CC1AE3E00FC37E5 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C3F7B77C2CC1AE3E00FC37E5 /* Preview Assets.xcassets */; };
+		C3F7B7872CC1B62B00FC37E5 /* LittleLemonLogoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3F7B7862CC1B62B00FC37E5 /* LittleLemonLogoView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		C3F7B7772CC1AE3C00FC37E5 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		C3F7B7792CC1AE3E00FC37E5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C3F7B77C2CC1AE3E00FC37E5 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		C3F7B7862CC1B62B00FC37E5 /* LittleLemonLogoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LittleLemonLogoView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +55,7 @@
 			children = (
 				C3F7B7752CC1AE3C00FC37E5 /* LittleLEMONRestaurantApp.swift */,
 				C3F7B7772CC1AE3C00FC37E5 /* ContentView.swift */,
+				C3F7B7832CC1B5CC00FC37E5 /* LogoView */,
 				C3F7B7792CC1AE3E00FC37E5 /* Assets.xcassets */,
 				C3F7B77B2CC1AE3E00FC37E5 /* Preview Content */,
 			);
@@ -65,6 +68,14 @@
 				C3F7B77C2CC1AE3E00FC37E5 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		C3F7B7832CC1B5CC00FC37E5 /* LogoView */ = {
+			isa = PBXGroup;
+			children = (
+				C3F7B7862CC1B62B00FC37E5 /* LittleLemonLogoView.swift */,
+			);
+			path = LogoView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -139,6 +150,7 @@
 			files = (
 				C3F7B7782CC1AE3C00FC37E5 /* ContentView.swift in Sources */,
 				C3F7B7762CC1AE3C00FC37E5 /* LittleLEMONRestaurantApp.swift in Sources */,
+				C3F7B7872CC1B62B00FC37E5 /* LittleLemonLogoView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
